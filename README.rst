@@ -13,7 +13,7 @@ Just do the following:
 .. code:: bash
 
    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-   $ git clone https://github.com/lfe/st2-lfe.git Lisp
+   $ git clone https://github.com/lfe/st2-lfe.git LFE
 
 .. Links
 .. -----
