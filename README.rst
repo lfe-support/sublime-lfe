@@ -12,8 +12,11 @@ Just do the following:
 
 .. code:: bash
 
+   $ mkdir -p ~/lab/SublimeText
+   $ cd ~/lab/SublimeText
+   $ git clone https://github.com/lfe/st2-lfe.git
    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-   $ git clone https://github.com/lfe/st2-lfe.git LFE
+   $ ln -s ~/lab/st2-lfe/LFE .
 
 
 Configuration
