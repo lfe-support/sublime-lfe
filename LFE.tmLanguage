@@ -6,11 +6,7 @@
 	<string></string>
 	<key>fileTypes</key>
 	<array>
-		<string>lisp</string>
-		<string>cl</string>
-		<string>l</string>
-		<string>mud</string>
-		<string>el</string>
+		<string>lfe</string>
 	</array>
 	<key>foldingStartMarker</key>
 	<string>\(</string>
@@ -90,7 +86,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:case|do|let|loop|if|else|when|export|import|from)\b</string>
+			<string>\b(?i:case|do|let|loop|if|else|when)\b</string>
 			<key>name</key>
 			<string>keyword.control.lisp</string>
 		</dict>
@@ -108,7 +104,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn|tuple|list|binary|match-lambda|let-rec|let-marco|case|receive|catch|try|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|bc|match-spec|defsyntax|macrolet|syntaxlet|defrecord|:)\b</string>
+			<string>\b(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn|tuple|list|binary|match-lambda|let-rec|let-marco|case|receive|catch|try|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|bc|match-spec|defsyntax|macrolet|syntaxlet|defrecord|export|import|from\:)\b</string>
 			<key>name</key>
 			<string>support.function.lisp</string>
 		</dict>
@@ -155,6 +151,6 @@
 	<key>scopeName</key>
 	<string>source.lisp</string>
 	<key>uuid</key>
-	<string>00D451C9-6B1D-11D9-8DFA-000D93589AF6</string>
+	<string>0fb78eb3-f609-46b1-a030-f7176ffb08a6</string>
 </dict>
 </plist>
