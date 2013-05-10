@@ -51,7 +51,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b(?i:(defun|defmethod|defmacro))\b)(\s+)((\w|\-|\!|\?)*)</string>
+			<string>(\b(?i:(defun|defmethod|defmacro|defmodule))\b)(\s+)((\w|\-|\!|\?)*)</string>
 			<key>name</key>
 			<string>meta.function.lisp</string>
 		</dict>
@@ -90,7 +90,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:case|do|let|loop|if|else|when)\b</string>
+			<string>\b(?i:case|do|let|loop|if|else|when|export|import|from)\b</string>
 			<key>name</key>
 			<string>keyword.control.lisp</string>
 		</dict>
@@ -108,7 +108,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn)\b</string>
+			<string>\b(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn|tuple|list|binary|match-lambda|let-rec|let-marco|case|receive|catch|try|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|bc|match-spec|defsyntax|macrolet|syntaxlet|defrecord|:)\b</string>
 			<key>name</key>
 			<string>support.function.lisp</string>
 		</dict>
