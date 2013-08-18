@@ -14,9 +14,9 @@ Just do the following:
 
    $ mkdir -p ~/lab/SublimeText
    $ cd ~/lab/SublimeText
-   $ git clone https://github.com/lfe/st2-lfe.git
+   $ git clone https://github.com/lfe/sublime-lfe.git
    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
-   $ ln -s ~/lab/SublimeText/st2-lfe/LFE .
+   $ ln -s ~/lab/SublimeText/sublime-lfe/LFE .
 
 
 Configuration
