@@ -3,6 +3,6 @@
 	"${3:Documentation for $1.}"
 	($0))]]></content>
     <tabTrigger>fun</tabTrigger>
-    <scope>source.lisp</scope>
-    <description>defmodule</description>
+    <scope>source.lfe</scope>
+    <description>defun</description>
 </snippet>

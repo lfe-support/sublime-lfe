@@ -1,5 +1,9 @@
 {
+    // Turn off the default matching behavior.
+    "auto_match_enabled": false,
     "extensions": ["lfe"],
+    // Turn on our matching behavior.
+    "lfe_auto_match_enabled": true,
     "tab_size": 2,
     "translate_tabs_to_spaces": true
 }

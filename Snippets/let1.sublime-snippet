@@ -2,6 +2,6 @@
     <content><![CDATA[(let ((${1:variable} ${2:value}))
 	($0))]]></content>
     <tabTrigger>let1</tabTrigger>
-    <scope>source.lisp</scope>
+    <scope>source.lfe</scope>
     <description>let1</description>
 </snippet>

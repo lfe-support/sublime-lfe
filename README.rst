@@ -38,7 +38,7 @@ dimmed parens with the following snippet:
         <key>name</key>
         <string>Lisp Parens</string>
         <key>scope</key>
-        <string>source.parens.lisp</string>
+        <string>source.parens.lfe</string>
         <key>settings</key>
         <dict>
             <key>foreground</key>

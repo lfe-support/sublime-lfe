@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA['(]]></content>
     <tabTrigger>(</tabTrigger>
-    <scope>source.parens.lisp</scope>
+    <scope>source.parens.lfe</scope>
     <description>'(</description>
 </snippet>

@@ -24,13 +24,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>source.parens.lisp</string>
+					<string>source.parens.lfe</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>[()]</string>
 			<key>name</key>
-			<string>source.parens.lisp</string>
+			<string>source.parens.lfe</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -38,13 +38,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.comment.lisp</string>
+					<string>punctuation.definition.comment.lfe</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(;).*$\n?</string>
 			<key>name</key>
-			<string>comment.line.semicolon.lisp</string>
+			<string>comment.line.semicolon.lfe</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -52,18 +52,18 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>storage.type.function-type.lisp</string>
+					<string>storage.type.function-type.lfe</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.lisp</string>
+					<string>entity.name.function.lfe</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(\b(?i:(defun|defmethod|defmacro|defmodule|include-file|include-lib))\b)(\s+)((\w|\-|\!|\?|&gt;)*)</string>
 			<key>name</key>
-			<string>meta.function.lisp</string>
+			<string>meta.function.lfe</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -71,13 +71,13 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.constant.lisp</string>
+					<string>punctuation.definition.constant.lfe</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(#)(\w|[\\+-=&lt;&gt;'"&amp;#])+</string>
 			<key>name</key>
-			<string>constant.character.lisp</string>
+			<string>constant.character.lfe</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -85,48 +85,48 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.variable.lisp</string>
+					<string>punctuation.definition.variable.lfe</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.variable.lisp</string>
+					<string>punctuation.definition.variable.lfe</string>
 				</dict>
 			</dict>
 			<key>match</key>
 			<string>(\*)(\S*)(\*)</string>
 			<key>name</key>
-			<string>variable.other.global.lisp</string>
+			<string>variable.other.global.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(?&lt;!-)(?i:case|do|let|loop|if|else|when)(?!-)\b</string>
 			<key>name</key>
-			<string>keyword.control.lisp</string>
+			<string>keyword.control.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(?&lt;!-)(?i:eq|neq|and|or)(?!-)\b</string>
 			<key>name</key>
-			<string>keyword.operator.lisp</string>
+			<string>keyword.operator.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(?&lt;!-)(?i:null|nil)(?!-)\b</string>
 			<key>name</key>
-			<string>constant.language.lisp</string>
+			<string>constant.language.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b(?&lt;!-)(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn|tuple|list|binary|match-lambda|let-rec|let-marco|case|receive|catch|try|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|bc|match-spec|defsyntax|macrolet|syntaxlet|defrecord|export|import|from|rename|:)(?!-)\b</string>
 			<key>name</key>
-			<string>support.function.lisp</string>
+			<string>support.function.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\b</string>
 			<key>name</key>
-			<string>constant.numeric.lisp</string>
+			<string>constant.numeric.lfe</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -136,7 +136,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.lisp</string>
+					<string>punctuation.definition.string.begin.lfe</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -146,24 +146,24 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.lisp</string>
+					<string>punctuation.definition.string.end.lfe</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.lisp</string>
+			<string>string.quoted.double.lfe</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>\\.</string>
 					<key>name</key>
-					<string>constant.character.escape.lisp</string>
+					<string>constant.character.escape.lfe</string>
 				</dict>
 			</array>
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.lisp</string>
+	<string>source.lfe</string>
 	<key>uuid</key>
 	<string>0fb78eb3-f609-46b1-a030-f7176ffb08a6</string>
 </dict>

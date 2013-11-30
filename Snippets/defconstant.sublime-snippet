@@ -2,6 +2,6 @@
     <content><![CDATA[(defconstant +${1:name}+ ${2:value}
 	"${3:Documentation for $1.}"))]]></content>
     <tabTrigger>const</tabTrigger>
-    <scope>source.lisp</scope>
+    <scope>source.lfe</scope>
     <description>defconstant</description>
 </snippet>
