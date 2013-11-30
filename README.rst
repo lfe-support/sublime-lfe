@@ -25,8 +25,8 @@ Configuration
 If you would like to dim the parenthesis down visually, you can use the
 `VimBlackboard`_ Sublime Text 2 package. This will give you a look such as this:
 
-.. image:: images/SublimeText2-LFE-Screenshot-small.png
-   :target: images/SublimeText2-LFE-Screenshot.png
+.. image:: https://raw.github.com/wiki/oubiwann/lfe-sublime-plugin/images/SublimeText2-LFE-Screenshot-small.png
+   :target: https://raw.github.com/wiki/oubiwann/lfe-sublime-plugin/images/SublimeText2-LFE-Screenshot.png
 
 If you'd just like to continue using your own theme, you can update it to use
 dimmed parens with the following snippet:
