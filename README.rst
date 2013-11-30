@@ -1,16 +1,18 @@
-LFE (Lisp Flavored Erlang) in Sublime Text 2
-============================================
+####################################################
+Sublime Text 2 Plugin for LFE (Lisp Flavored Erlang)
+####################################################
 
 This `Sublime Text 2`_ package provides support for syntax highlighting of
-`LFE`_.
+`LFE`_ and is intended to be installed via `Package Control`_.
+
+If you would like to use the stand-alone package and install it manually, visit
+the `other project home`_.
 
 
 Installation
-------------
+============
 
-Just do the following:
-
-.. code:: bash
+In a terminal:
 
    $ mkdir -p ~/lab/SublimeText
    $ cd ~/lab/SublimeText
@@ -18,9 +20,8 @@ Just do the following:
    $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
    $ ln -s ~/lab/SublimeText/sublime-lfe/LFE .
 
-
 Configuration
--------------
+=============
 
 If you would like to dim the parenthesis down visually, you can use the
 `VimBlackboard`_ Sublime Text 2 package. This will give you a look such as this:
@@ -45,8 +46,11 @@ dimmed parens with the following snippet:
         </dict>
     </dict>
 
+
 .. Links
-.. -----
+.. =====
 .. _Sublime Text 2: http://www.sublimetext.com/2
 .. _LFE: http://lfe.github.io/
+.. _Package Control: https://sublime.wbond.net/
+.. _other project home: https://github.com/lfe/sublime-lfe
 .. _VimBlackboard: https://github.com/oubiwann/Theme-VimBlackboard
