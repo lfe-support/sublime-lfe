@@ -61,7 +61,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b(?i:(defun|defmethod|defmacro|defmodule|include-file|include-lib))\b)(\s+)((\w|\-|\!|\?)*)</string>
+			<string>(\b(?i:(defun|defmethod|defmacro|defmodule|include-file|include-lib))\b)(\s+)((\w|\-|\!|\?|&gt;)*)</string>
 			<key>name</key>
 			<string>meta.function.lisp</string>
 		</dict>
@@ -100,25 +100,25 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:case|do|let|loop|if|else|when)\b</string>
+			<string>\b(?&lt;!-)(?i:case|do|let|loop|if|else|when)(?!-)\b</string>
 			<key>name</key>
 			<string>keyword.control.lisp</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:eq|neq|and|or)\b</string>
+			<string>\b(?&lt;!-)(?i:eq|neq|and|or)(?!-)\b</string>
 			<key>name</key>
 			<string>keyword.operator.lisp</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:null|nil)\b</string>
+			<string>\b(?&lt;!-)(?i:null|nil)(?!-)\b</string>
 			<key>name</key>
 			<string>constant.language.lisp</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn|tuple|list|binary|match-lambda|let-rec|let-marco|case|receive|catch|try|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|bc|match-spec|defsyntax|macrolet|syntaxlet|defrecord|export|import|from|rename|:)\b</string>
+			<string>\b(?&lt;!-)(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn|tuple|list|binary|match-lambda|let-rec|let-marco|case|receive|catch|try|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|bc|match-spec|defsyntax|macrolet|syntaxlet|defrecord|export|import|from|rename|:)(?!-)\b</string>
 			<key>name</key>
 			<string>support.function.lisp</string>
 		</dict>
