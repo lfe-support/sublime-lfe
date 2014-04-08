@@ -61,7 +61,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b(?i:(defun|defmethod|defmacro|defsyntax|defmodule|deftest|include-file|include-lib))\b)(\s+)((\w|\-|\!|\?|&gt;)*)</string>
+			<string>(\b(?i:(defun|defmethod|defmacro|defsyntax|defmodule|deftest|deftestgen|deftestskip|include-file|include-lib))\b)(\s+)((\w|\-|\!|\?|&gt;)*)</string>
 			<key>name</key>
 			<string>meta.function.lfe</string>
 		</dict>
