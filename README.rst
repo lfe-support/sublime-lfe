@@ -1,8 +1,8 @@
-####################################################
-Sublime Text 2 Plugin for LFE (Lisp Flavored Erlang)
-####################################################
+##################################################
+Sublime Text Plugin for LFE (Lisp Flavored Erlang)
+##################################################
 
-This `Sublime Text 2`_ package provides support for syntax highlighting of
+This `Sublime Text`_ package provides support for syntax highlighting of
 `LFE`_ and is intended to be installed via `Package Control`_.
 
 If you would like to use the stand-alone package and install it manually, visit
@@ -24,7 +24,7 @@ Configuration
 =============
 
 If you would like to dim the parenthesis down visually, you can use the
-`VimBlackboard`_ Sublime Text 2 package. This will give you a look such as this:
+`VimBlackboard`_ Sublime Text package. This will give you a look such as this:
 
 .. image:: https://raw.github.com/wiki/oubiwann/lfe-sublime-plugin/images/SublimeText2-LFE-Screenshot-small.png
    :target: https://raw.github.com/wiki/oubiwann/lfe-sublime-plugin/images/SublimeText2-LFE-Screenshot.png
@@ -49,8 +49,8 @@ dimmed parens with the following snippet:
 
 .. Links
 .. =====
-.. _Sublime Text 2: http://www.sublimetext.com/2
-.. _LFE: http://lfe.github.io/
+.. _Sublime Text: http://www.sublimetext.com/2
+.. _LFE: http://lfe.io/
 .. _Package Control: https://sublime.wbond.net/
 .. _other project home: https://github.com/lfe/sublime-lfe
 .. _VimBlackboard: https://github.com/oubiwann/Theme-VimBlackboard
