@@ -118,7 +118,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!-)(?i:cons|car|cdr|cond|lambda|\|.\|->|->>|<-|<=|?=|format|acons|pairlis|assoc|assoc-if|assoc-if-not|rassoc|rassoc-if|rassoc-if-not|subst|subst-if|subst-if-not|sublis|quote|unquote|backquote|eval|append|list||t|load|progn|prog1|prog2|tuple|list|binary|match-lambda|let-rec|let-marco|receive|catch|try|error|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|list-comp|bc|binary-comp|match-spec|defsyntax|macrolet|syntaxlet|map|map-get|map-set|map-update|export|import|from|rename|:)(?!-)\b</string>
+			<string>\b(?&lt;!-)(?i:cons|car|cdr|cond|lambda|\\|.\\|->|->>|<-|<=|?=|format|acons|pairlis|assoc|assoc-if|assoc-if-not|rassoc|rassoc-if|rassoc-if-not|subst|subst-if|subst-if-not|sublis|quote|unquote|backquote|eval|append|list||t|load|progn|prog1|prog2|tuple|list|binary|match-lambda|let-rec|let-marco|receive|catch|try|error|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|list-comp|bc|binary-comp|match-spec|defsyntax|macrolet|syntaxlet|map|map-get|map-set|map-update|export|import|from|rename:)(?!-)\b</string>
 			<key>name</key>
 			<string>support.function.lfe</string>
 		</dict>
