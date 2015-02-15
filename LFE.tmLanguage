@@ -61,7 +61,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b(?i:(defun|defmethod|defmacro|defsyntax|defmodule|defrecord|deftest|deftestgen|deftestskip|include-file|include-lib|set))\b)(\s+)((\w|\-|\!|\?|&gt;)*)</string>
+			<string>(\b(?i:(def[a-z\-]*|include-file|include-lib|set))\b)(\s+)((\w|\.|\\|&lt;|\-|\!|\?|&gt;)*)</string>
 			<key>name</key>
 			<string>meta.function.lfe</string>
 		</dict>
@@ -100,31 +100,31 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!-)(?i:case|do|let|loop|if|else|when)(?!-)\b</string>
+			<string>(?&lt;![*+!_?\-])\b(case|do|let|loop|if|else|when|receive|!|\?)\b(?![*+!_?\-])</string>
 			<key>name</key>
 			<string>keyword.control.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!-)(?i:eq|neq|and|or|==|=:=|&lt;=|&gt;|&lt;|&lt;&gt;|=/=|/=)(?!-)\b</string>
+			<string>(?&lt;![*+!_?\-])\b(eq|neq|and|or|==|=:=|&lt;=|&gt;|&lt;|&lt;&gt;|=/=|/=)(?!-)\b(?![*+!_?\-])</string>
 			<key>name</key>
 			<string>keyword.operator.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!-)(?i:null|nil)(?!-)\b</string>
+			<string>\b(?&lt;!-)(?i:ok|undefined|null|nil)(?!-)\b</string>
 			<key>name</key>
 			<string>constant.language.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!-)(?i:cons|car|cdr|cond|lambda|\\|\.\\|-&gt;|-&gt;&gt;|&lt;-|&lt;=|?=|format|acons|pairlis|assoc|assoc-if|assoc-if-not|rassoc|rassoc-if|rassoc-if-not|subst|subst-if|subst-if-not|sublis|quote|unquote|backquote|eval|append|list||t|load|progn|prog1|prog2|tuple|list|binary|match-lambda|let-rec|let-marco|receive|catch|try|error|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|list-comp|bc|binary-comp|match-spec|defsyntax|macrolet|syntaxlet|map|map-get|map-set|map-update|export|import|from|rename:)(?!-)\b</string>
+            <string>(?&lt;![*+!_?\-\.&gt;&lt;])\b(cons|car|cdr|cond|lambda|\\|\.\\|-&gt;|-&gt;&gt;|&lt;-|&lt;=|\?=|\w+:\w+|acons|pairlis|assoc|assoc-if|assoc-if-not|rassoc|rassoc-if|rassoc-if-not|subst|subst-if|subst-if-not|sublis|quote|unquote|backquote|eval|append|list||t|load|progn|prog1|prog2|tuple|list|binary|match-\w+|let-rec|let-marco|receive|catch|try|error|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|list-comp|bc|binary-comp|match-spec|defsyntax|macrolet|syntaxlet|map|map-get|map-set|map-update|export|import|from|rename)\b(?![*+!_?\-\.&gt;&lt;])</string>
 			<key>name</key>
 			<string>support.function.lfe</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|F|f|ll|LL|ull|ULL)?\b</string>
+			<string>\b((0(x|X)[0-9a-fA-F]*)|true|false|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)(L|l|UL|ul|u|U|ll|LL|ull|ULL)?\b</string>
 			<key>name</key>
 			<string>constant.numeric.lfe</string>
 		</dict>
