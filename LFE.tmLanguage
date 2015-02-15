@@ -61,7 +61,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(\b(?i:(defun|defmethod|defmacro|defsyntax|defmodule|deftest|deftestgen|deftestskip|include-file|include-lib))\b)(\s+)((\w|\-|\!|\?|&gt;)*)</string>
+			<string>(\b(?i:(defun|defmethod|defmacro|defsyntax|defmodule|defrecord|deftest|deftestgen|deftestskip|include-file|include-lib|set))\b)(\s+)((\w|\-|\!|\?|&gt;)*)</string>
 			<key>name</key>
 			<string>meta.function.lfe</string>
 		</dict>
@@ -106,7 +106,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!-)(?i:eq|neq|and|or)(?!-)\b</string>
+			<string>\b(?&lt;!-)(?i:eq|neq|and|or|==|=:=|<=|>|<|<>|=/=|/=)(?!-)\b</string>
 			<key>name</key>
 			<string>keyword.operator.lfe</string>
 		</dict>
@@ -118,7 +118,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!-)(?i:cons|car|cdr|cond|lambda|format|setq|setf|quote|eval|append|list|listp|memberp|t|load|progn|tuple|list|binary|match-lambda|let-rec|let-marco|case|receive|catch|try|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|bc|match-spec|defsyntax|deftest|macrolet|syntaxlet|defrecord|export|import|from|rename|:)(?!-)\b</string>
+			<string>\b(?&lt;!-)(?i:cons|car|cdr|cond|lambda|\|.\|->|->>|<-|<=|?=|format|acons|pairlis|assoc|assoc-if|assoc-if-not|rassoc|rassoc-if|rassoc-if-not|subst|subst-if|subst-if-not|sublis|quote|unquote|backquote|eval|append|list||t|load|progn|prog1|prog2|tuple|list|binary|match-lambda|let-rec|let-marco|receive|catch|try|error|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|list-comp|bc|binary-comp|match-spec|defsyntax|macrolet|syntaxlet|map|map-get|map-set|map-update|export|import|from|rename|:)(?!-)\b</string>
 			<key>name</key>
 			<string>support.function.lfe</string>
 		</dict>
