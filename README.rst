@@ -14,6 +14,8 @@ Installation
 
 In a terminal:
 
+.. code:: bash
+
    $ mkdir -p ~/lab/SublimeText
    $ cd ~/lab/SublimeText
    $ git clone https://github.com/lfex/sublime-lfe.git
