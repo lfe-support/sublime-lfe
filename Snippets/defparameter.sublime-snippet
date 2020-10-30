@@ -2,6 +2,6 @@
     <content><![CDATA[(defparameter *${1:name}* ${2:value}
 	"${3:Documentation for $1.}")]]></content>
     <tabTrigger>par</tabTrigger>
-    <scope>source.lisp</scope>
+    <scope>source.lfe</scope>
     <description>defparameter</description>
 </snippet>

@@ -2,6 +2,6 @@
     <content><![CDATA[(if (${1:test})
 	($0))]]></content>
     <tabTrigger>if</tabTrigger>
-    <scope>source.lisp</scope>
+    <scope>source.lfe</scope>
     <description>if</description>
 </snippet>

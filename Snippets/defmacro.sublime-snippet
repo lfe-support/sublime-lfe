@@ -3,6 +3,6 @@
 	"${3:Documentation for $1.}"
 	($0))]]></content>
     <tabTrigger>mac</tabTrigger>
-    <scope>source.lisp</scope>
+    <scope>source.lfe</scope>
     <description>defmacro</description>
 </snippet>
