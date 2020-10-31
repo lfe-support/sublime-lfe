@@ -1,4 +1,4 @@
-%YAML 1.2
+# YAML 1.2
 ---
 # http://www.sublimetext.com/docs/3/syntax.html
 name: LFE
@@ -8,11 +8,11 @@ file_extensions:
 scope: source.lfe
 contexts:
   main:
-    - match: "[()]"
+    - match: '[()]'
       scope: source.parens.lfe
       captures:
         1: source.parens.lfe
-    - match: "(;).*$\n?"
+    - match: '(;).*$\n?'
       scope: comment.line.semicolon.lfe
       captures:
         1: punctuation.definition.comment.lfe
@@ -25,7 +25,7 @@ contexts:
       scope: constant.character.lfe
       captures:
         1: punctuation.definition.constant.lfe
-    - match: "(\*)(\S*)(\*)"
+    - match: '(\*)(\S*)(\*)'
       scope: variable.other.global.lfe
       captures:
         1: punctuation.definition.variable.lfe
@@ -34,7 +34,7 @@ contexts:
       scope: keyword.control.lfe
     - match: '(?<![*+!_?\-])\b(eq|neq|and|or|==|=:=|<=|>|<|<>|=/=|/=)(?!-)\b(?![*+!_?\-])'
       scope: keyword.operator.lfe
-    - match: "\b(?<!-)(?i:ok|undefined|null|nil)(?!-)\b"
+    - match: '\b(?<!-)(?i:ok|undefined|null|nil)(?!-)\b'
       scope: constant.language.lfe
     - match: '(?<![*+!_?\-\.><])\b(cons|car|cdr|cond|lambda|\\|\.\\|->|->>|<-|<=|\?=|\w+:\w+|acons|pairlis|assoc|assoc-if|assoc-if-not|rassoc|rassoc-if|rassoc-if-not|subst|subst-if|subst-if-not|sublis|quote|unquote|backquote|eval|append|list||t|load|progn|prog1|prog2|tuple|list|binary|match-\w+|let-rec|let-marco|receive|catch|try|error|funcall|call|list*|let*|flet*|flet|fletrec|andalso|orelse|fun|lc|list-comp|bc|binary-comp|match-spec|defsyntax|macrolet|syntaxlet|map|map-get|map-set|map-update|export|import|from|rename)\b(?![*+!_?\-\.><])'
       scope: support.function.lfe
@@ -49,5 +49,5 @@ contexts:
           captures:
             0: punctuation.definition.string.end.lfe
           pop: true
-        - match: "\\."
+        - match: '\\.'
           scope: constant.character.escape.lfe
